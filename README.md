@@ -41,3 +41,10 @@ cd C:\Java\prog1\
 C:\Java\prog1>java PrimeiraClasse
 Hello World!!!
 ```
+
+## Anotações:
+CLI - Uma interface de linha de comando (CLI) é uma interface baseada em texto na qual você pode inserir comandos que interagem com o sistema operacional de um computador.
+
+GUI - Uma interface gráfica do usuário (GUI na sigla em inglês) é um sistema que interage com o usuário visualmente. A GUI inclui coisas como menus, ícones para programas e aplicativos e janelas de navegadores.
+
+TUI - O NetworkManager faz uma seleção oportunista da rede, tentando usar a melhor conexão disponível quando ocorre uma falha ou quando o usuário move-se de uma rede para outra.

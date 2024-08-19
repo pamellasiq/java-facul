@@ -1,6 +1,6 @@
 # Prog1 tutorial
 
-1. Criar arquitetura de pastas na `C:\\` ou na faculdade `C:\\Users\{seu RA}\Desktop`
+1. Criar arquitetura de pastas na `C:\\` (para uso pessoal) ou na faculdade, crie em `C:\\Users\{seu RA}\Desktop`
 ```
 │▸ Java
     ┗ ▸  prog1

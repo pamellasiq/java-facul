@@ -37,7 +37,7 @@ cd C:\Java\prog1\
 
 9. Por fim, seu arquivo será executado dessa forma:
 
-```sh
-C:\Java\prog1>java PrimeiraClasse
+```Java
+C:\Java\prog1> java PrimeiraClasse
 Hello World!!!
 ```

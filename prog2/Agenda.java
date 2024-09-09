@@ -6,10 +6,16 @@ public class Agenda {
    }
 
    public static void main(String[] args) {
-      BancoDeDados bancodedados = new BancoDeDados();
-      bancodedados.conectar();
-      bancodedados.listar();
-      bancodedados.desconectar();
-   }
+        BancoDeDados bancodedados = new BancoDeDados();
+        bancodedados.conectar();
+        //bancodedados.inserir();// adicionar essa linha no objeto main da classe "Agenda"
+        //aqui coloca a linha         
+        //"bancodedados.desconectar();" se colocar antes de inserir, vai dar erro
+        //bancodedados.inseriratrib("Paçoca", "pac@uol.com.br", "1140028922");
+        //bancodedados.apagar("4");
+        //bancodedados.alterar("Juvenales", "","", "5");
+        bancodedados.listar("9");
+        bancodedados.desconectar();
+    }
 }
 

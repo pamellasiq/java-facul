@@ -106,9 +106,9 @@ public class BancoDeDados {
         
     }
     
-    public void listar() {
+    public void listar(String id) {
         try {
-            String query = "SELECT * FROM cadastro ORDER BY id ASC";
+            String query = "SELECT * FROM cadastro WHERE `id` = "+id+" ORDER BY id ASC";
             this.resultset = this.statement.executeQuery(query);
             while(this.resultset.next()){
                 System.out.println("ID: " + this.resultset.getString("id") + " - NOME: " + this.resultset.getString("nome") + " - EMAIL: " + this.resultset.getString("email") + " - TELEFONE: " + this.resultset.getString("telefone"));

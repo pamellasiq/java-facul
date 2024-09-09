@@ -182,9 +182,9 @@ public void alterar(String id, String nome, String email, String telefone){
 
 6. Crie  o método void `listar()`
 ```Java
-public void listar() {
+public void listar(String id) {
         try {
-            String query = "SELECT * FROM cadastro ORDER BY id ASC";
+            String query = "SELECT * FROM cadastro WHERE `id` = "+id+" ORDER BY id ASC";
             this.resultset = this.statement.executeQuery(query);
             while(this.resultset.next()){
                 System.out.println("ID: " + this.resultset.getString("id") + " - NOME: " + this.resultset.getString("nome") + " - EMAIL: " + this.resultset.getString("email") + " - TELEFONE: " + this.resultset.getString("telefone"));
@@ -212,7 +212,7 @@ public static void main(String[] args) {
         //bancodedados.inseriratrib("Paçoca", "pac@uol.com.br", "1140028922");
         //bancodedados.apagar("4");
         //bancodedados.alterar("Juvenales", "","", "5");
-        //bancodedados.listar();
+        //bancodedados.listar("9");
         bancodedados.desconectar();
     }
 }
